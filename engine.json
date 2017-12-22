@@ -5,8 +5,8 @@
   "engineFactory": "org.template.RecommendationEngine",
   "datasource": {
     "params" : {
-      "name": "iOS vs Android demo (data/initial-events.json)",
-      "eventNames": ["purchase", "bookmark"]
+      "name": "iOS vs Android demo (data/beverage-events.json)",
+      "eventNames": ["purchase", "noshowlist"]
     }
   },
   "sparkConf": {
@@ -22,16 +22,18 @@
       "name": "ur",
       "params": {
         "typeName": "items",
+		"eventNames": ["purchase", "noshowlist"],
+		"blacklistEvents": ["noshowlist"],
         "comment": "must have data for the first event or the model will not build, other events are optional",
         "indicators": [
           {
             "name": "purchase"
           },{
-            "name": "bookmark",
+            "name": "noshowlist",
             "maxCorrelatorsPerItem": 50
           }
         ],
-        "num": 4
+        "num": 8
       }
     }
   ]
