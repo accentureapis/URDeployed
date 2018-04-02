@@ -30,10 +30,11 @@
             "name": "purchase"
           },{
             "name": "noshowlist",
-            "maxCorrelatorsPerItem": 50
+            "maxCorrelatorsPerItem": 1
           }
         ],
-        "num": 8
+        "num": 8,
+	"userbias": -15
       }
     }
   ]
