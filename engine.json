@@ -34,7 +34,7 @@
           }
         ],
         "num": 7,
-	"userBias": 2.0
+	"userBias": 0.50
       }
     }
   ]
