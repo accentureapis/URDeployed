@@ -6,7 +6,7 @@
   "datasource": {
     "params" : {
       "name": "sample-handmade-data.txt",
-      "eventNames": ["purchase", "view"]
+      "eventNames": ["purchase", "noshowlist"]
     }
   },
   "sparkConf": {
@@ -25,8 +25,8 @@
       "params": {
         "typeName": "items",
         "comment": "must have data for the first event or the model will not build, other events are optional",
-        "eventNames": ["purchase", "view"],
-        "blacklistEvents": []
+        "eventNames": ["purchase", "noshowlist"],
+        "blacklistEvents": ["noshowlist"]
       }
     }
   ]
