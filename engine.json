@@ -28,9 +28,11 @@
         "indicators": [
           {
             "name": "purchase"
+          },{
+            "name": "noshowlist",
+            "maxCorrelatorsPerItem": 1
           }
         ],
-	"maxQueryEvents": 100,
         "num": 7,
 	"userBias": 2.0
       }
