@@ -1,3 +1,4 @@
+
 {"event":"$set","entityType":"user","entityId":"5","properties":{"zipcode":["30322"]},"eventTime":"01-01-2016T06:57:05.111Z"}
 {"event":"$set","entityType":"user","entityId":"4","properties":{"zipcode":["30322"]},"eventTime":"01-01-2016T06:57:05.111Z"}
 {"event":"$set","entityType":"user","entityId":"3","properties":{"zipcode":["30322"]},"eventTime":"01-01-2016T06:57:05.111Z"}
